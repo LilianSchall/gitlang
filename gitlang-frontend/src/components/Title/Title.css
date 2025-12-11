@@ -1,0 +1,23 @@
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 2rem 1rem;
+}
+
+.title h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	letter-spacing: -1.5px;
+	color: var(--text-primary);
+}
+
+.title p {
+	font-size: 1.125rem;
+	color: var(--text-secondary);
+	font-weight: 400;
+	margin: 0;
+}
