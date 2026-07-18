@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { addWord } from "../../utils/storage";
 import Header from "../../components/Header/Header";
-import AddWordForm from "../../components/Form/AddWordForm";
+import AddWordForm from "../../components/AddWordForm/AddWordForm";
 import "./AddWordPage.css";
 
 interface FormData {
